@@ -1,18 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-
-<script>
-    var audio = new Audio('Ruby.mp3');
-
-</script>
-
-<body>
-    <input type="button" onclick="audio.play();" value="PLAY"> <!--재생-->
-    <input type="button" onclick="audio.pause();" value="PAUSE"> <!--일시정지-->
-
-</body>
-</html>
+<link href='https://fonts.googleapis.com/css?family=Roboto:100' rel='stylesheet' type='text/css'>
+<div class="player">
+      <canvas></canvas>
+    <div class="song">
+      <div class="artist">Kavinsky</div>
+      <div class="name">Odd Look ft. The Weeknd</div>
+    </div>
+    <div class="playarea">
+      <div class="prevSong"></div>
+      <div class="play"></div>
+      <div class="pause"></div>
+      <div class="nextSong"></div>
+    </div>
+    <div class="soundControl"></div>
+    <div class="time">00:00</div>
+  </div>
